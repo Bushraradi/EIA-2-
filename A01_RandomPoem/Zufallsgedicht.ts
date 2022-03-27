@@ -1,4 +1,4 @@
-namespace A01
+namespace A01 {
 
 let subjekte: string[] = ["Harry", "Hermine", "Ron", "Hagrid", "Snape", "Dumbledore"];
 
@@ -38,3 +38,4 @@ function getVerse (_Subjekte: string[], _Prädikate: string[], _Objekte: string[
 
 }
 
+}
