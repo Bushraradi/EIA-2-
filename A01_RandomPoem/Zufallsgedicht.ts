@@ -18,21 +18,19 @@ for (let index: number = subjekte.length; index > 0; index--) {
 
 function getVerse (_Subjekte: string[], _Prädikate: string[], _Objekte: string[]): string {
 
-    let zeile: string = " ";
+    let vers: string = " ";
 
     let randomnumber1: number = Math.floor(Math.random() * _Subjekte.length);
 
-    zeile = zeile + _Subjekte.splice(randomnumber1, 1)[0] + " ";
-
     let randomnumber2: number = Math.floor(Math.random() * _Prädikate.length);
 
-    zeile = zeile + _Prädikate.splice(randomnumber2, 1)[0] + " ";
-
     let randomnumber3: number = Math.floor(Math.random() * _Objekte.length);
+    
+    vers = vers + _Subjekte.splice(randomnumber1, 1)[0] + " ";
+    vers = vers + _Prädikate.splice(randomnumber2, 1)[0] + " ";
+    vers = vers + _Objekte.splice(randomnumber3, 1)[0] + " ";
 
-    zeile = zeile + _Objekte.splice(randomnumber3, 1)[0] + " ";
-
-    return zeile;
+    return vers;
 
 
 
