@@ -1,0 +1,40 @@
+body {
+    height: 100%;
+    background-color: antiquewhite;
+}
+h1 {
+    position: relative;
+    color: azure;
+}
+
+div {
+   position: absolute;
+   border-color: black;
+   border-style: solid;
+    height: 80%;
+    width: 37%;
+    top: 100px;
+}
+
+#div0 {
+    background-color: bisque;
+    margin-left: 10%;
+}
+
+#div1 {
+    background-color: bisque;
+    margin-left: 50%;  
+}
+
+span {
+    
+    position: fixed;
+    background-color: blanchedalmond;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+    font-size: medium;
+    padding: 10px;
+}
+
+
