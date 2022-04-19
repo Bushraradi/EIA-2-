@@ -1,6 +1,6 @@
 namespace Eventinspector {
 
-window.addEventListener("load, handleLoad"): void{
+window.addEventListener("load, handleLoad");
 function handleLoad (_event): void {
 //*Event-Listener und Body key-up-Listener auf dem Body und den divs liegen
 let body = document.body;
@@ -22,10 +22,10 @@ document.addEventListener("keyup", logInfo);
  }
 
 function SetInfoBox (_event): void {
-let x = _event.offsetX;
-let y = _event.offsetY;
-let target = _event.target;
-let span = document.getElementById ("span");
+var x = _event.offsetX;
+var y = _event.offsetY;
+var target = _event.target;
+var span = document.getElementById ("span");
 span.innerHTML = mouseposition + target;
 let mouseposition = "X: " + x + "px " + "Y: " + y + "px ";
 span.style.left = x + "px";
