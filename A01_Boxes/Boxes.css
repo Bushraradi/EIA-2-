@@ -15,19 +15,3 @@ div {
     width: 10px;
     height: 10px;
 }
-body {
-    background-color: white;
-    color: brown;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: large;
-    text-align: center;
-}
-
-a {
-    color:brown;
-    text-decoration: none;
-}
-
-a:hover {
-    opacity: 0.6;
-}
